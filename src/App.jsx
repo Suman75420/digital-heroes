@@ -1,5 +1,12 @@
-
-
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/home";
+import Signup from "./pages/signup";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import Admin from "./pages/Admin";
+import Charities from "./pages/charities";
+import CharityDetails from "./pages/charityDetails";
+import ScoreEntry from "./pages/scoreEntry";
 
 function App() {
   return (
